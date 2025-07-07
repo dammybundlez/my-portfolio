@@ -10,7 +10,7 @@ const CardBoard = () => {
                 enableMouseInteraction={true}
                 />
           </div>
-          <div className="font-oufit absolute lg:top-[15%] left-[0%] w-full  text-black">
+          <div className="font-outfit absolute lg:top-[15%] left-[0%] w-full  text-black">
             <section className="relative h-screen w-full flex flex-col leading-none items-center justify-center">
                   <p  className="lg:left-24 lg:top-[7%] md:top-24 sm:top-24 md:left-32 sm:left-32 font-light top-3 left-11 absolute lg:text-[2.3rem] text-[1.3rem] font-quantico"  >
                     Hi, I'm 
