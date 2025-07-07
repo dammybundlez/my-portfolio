@@ -1,12 +1,10 @@
 import Particles from "./Particles"
 import { motion } from 'framer-motion'
 
-
-
 const CardBoard = () => {
   return (
     <div className="">
-      <div className="w-full fixed flex flex-col text-white bg-[#e7e1e1]  items-center justify-center h-[140vh] z-0 top-0 left-0">
+      <div className="w-full fixed flex flex-col text-white bg-[#e7e1e1] font-poppins min-h-screen  items-center justify-center h-[140vh] z-0 top-0 left-0">
         <div className="w-full absolute top-[19rem] lg:top-0 lg:h-[100%]">
               <Particles
                 amplitude={2}

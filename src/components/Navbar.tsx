@@ -30,7 +30,7 @@ const Navbar = () => {
                 </ul>
             </nav>
             <div className="flex gap-2 items-center px-2">
-                {/* <p>Explore</p> */}
+                <p className="font-bold">Explore</p>
                 <FaRegKissWinkHeart className="w-8 h-8" />
             </div>
             

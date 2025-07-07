@@ -3,7 +3,6 @@ module.exports = {
     './src/components/Navbar.tsx' ,
     './src/components/Cardboard.tsx' ,
     './src/components/Projects.tsx' ,
-    './src/components/MasonryGrid.tsx' ,
     './src/components/About.tsx' ,
     './src/components/Contact.tsx' ,
     './src/components/Footer.tsx' ,
@@ -13,13 +12,13 @@ module.exports = {
     './src/components/SplitText.tsx' ,
     './src/components/DecryptedText.tsx' ,
     './src/text/AboutMeText.tsx' ,
+    './src/text/Mission.tsx' ,
   ],
   theme: {
     extend: {
       fontFamily : {
         ubuntu : [ 'Ubuntu' , 'sans-serif'],
         outfit : [ 'Outfit' , "sans-serif"],
-        pacifico : ["Liu Jian Mao Cao", 'cursive'],
         quantico : [ 'Quantico', 'sans-serif'],
         poppins : ['Poppins' , 'sans-serif']
       },
