@@ -40,4 +40,4 @@ const CardBoard = () => {
   )
 }
 
-export default CardBoard
+export default CardBoard;
