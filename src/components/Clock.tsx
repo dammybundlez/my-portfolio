@@ -19,7 +19,7 @@ export default function DigitalClock() {
 
   return (
     <div className="lg:flex hidden items-center justify-center font-quantico">
-      <div className="text-black text-sm tracking-widest px-8 py-4 font-quantico">
+      <div className="text-black text-sm tracking-widest px-2 py-4 font-quantico">
         {formattedTime}
       </div>
     </div>

@@ -4,7 +4,7 @@ import Mission from "../text/Mission"
 const About = () => {
   return (
     <div id="about" className="font-ubuntu flex flex-col">
-      <div className='flex h-[120vh]  relative '>  
+      <div className='flex h-[150vh] md:h-[100vh] sm:h-[100vh]  relative '>  
         <h1 className="lg:text-[9rem] text-5xl text-black font-bold mb-20 px-20 absolute left-[-4.5rem] lg:left-0 top-[-2.3rem] lg:top-[-7.5rem]">
             About Me.
         </h1>

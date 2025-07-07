@@ -3,13 +3,13 @@ import { FiMail } from "react-icons/fi"
 
 const Contact = () => {
   return (
-    <div id="contact" className="relative  lg:h-[70vh] h-[100vh] bg-white">
+    <div id="contact" className="relative  lg:h-[70vh] sm:h-[130vh] md:h-[100vh] h-[100vh] bg-white">
         <div>
             <h1 className="lg:text-[9rem] text-5xl text-black font-bold mb-20 px-20 absolute left-[-4.5rem] lg:left-0 top-[-2.3rem] lg:top-[-7.5rem]">
              Contact.
             </h1>
-            <div className="lg:mt-28 mt-10 lg:px-20 px-2 w-[100%] items-center justify-center lg:w-[40%] lg:text-left flex flex-col space-y-10">
-               <p className="max-w-2xl mx-auto lg:text-lg text-2xl font-medium text-black">
+            <div className="lg:mt-28 mt-10 lg:px-20 px-2 w-[100%] items-center justify-center lg:w-[40%] md:w-[40%] lg:text-left flex flex-col space-y-10">
+               <p className="max-w-2xl mx-auto lg:text-lg md:text-xl text-2xl font-medium text-black">
                     I'm always open to new opportunities, collaborations, or just a friendly chat.
                     Feel free to reach out!
                 </p>

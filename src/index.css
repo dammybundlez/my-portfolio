@@ -31,10 +31,6 @@
       padding: 0.2em 0;
     }
 
-    /* .clip-path{
-      clip-path: polygon(0 0 , 100% 0 , 100% 60% , 0% 0%);
-    } */
-
     .highlight-mission {
       position: relative;
       display: inline-block;
@@ -43,7 +39,6 @@
       font-style: italic;
       color: black;
       z-index: 1;
-      /* padding: 0.2em 0; */
     }
     .highlight-mission::after {
   content: "";
@@ -141,20 +136,3 @@ html {
   color: #0bf308;
   cursor: pointer;
 }
-
-.animate-gradient {
-        background-size: 300% 300%;
-        animation: gradientShift 5s ease infinite;
-      }
-
-      @keyframes gradientShift {
-        0% {
-          background-position: 0% 50%;
-        }
-        50% {
-          background-position: 100% 50%;
-        }
-        100% {
-          background-position: 0% 50%;
-        }
-      }

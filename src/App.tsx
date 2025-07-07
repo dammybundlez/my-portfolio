@@ -32,10 +32,9 @@ const App = () => {
         <link rel="icon" href="/favicon.ico" />
       </Helmet>
       <main className="overflow-x-hidden relative">
-        <div className="flex flex-col text-[#1e293b] snap-y snap-mandatory overflow-y-scroll overflow-x-hidden ">
+        <div className="flex flex-col text-[#1e293b] snap-y snap-mandatory overflow-y-hidden ">
           <Navbar />
           <CardBoard />
-          <div></div>
           <Projects/>
           <About />
           <Contact />

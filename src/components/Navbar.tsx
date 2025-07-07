@@ -15,9 +15,11 @@ const Navbar = () => {
     }
   return (
     <div className="relative">
-    <div className="fixed lg:mb-24 left-0 w-full top-0  z-40">
-        <div className="flex justify-between items-center  w-full p-4">
-            <Clock />
+    <div className="fixed lg:mb-24 left-0 w-full top-0 z-40">
+        <div className="flex justify-between items-center w-full p-4">
+            <div className="">
+                <Clock />
+            </div>
             <nav className="shadow-sm bg-white/10 text-black border-2 backdrop-blur-md px-10 py-2 z-10  rounded-full lg:flex hidden">
                 <ul className="flex items-center justify-between space-x-16 font-ubuntu">
                     <li>Blog</li>
@@ -27,7 +29,11 @@ const Navbar = () => {
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <FaRegKissWinkHeart className="w-8 h-8" />
+            <div className="flex gap-2 items-center px-2">
+                {/* <p>Explore</p> */}
+                <FaRegKissWinkHeart className="w-8 h-8" />
+            </div>
+            
         </div>
         <div className="flex justify-between p-2 items-center lg:hidden shadow-sm top-0 bg-white absolute w-full">
                 <div className="flex items-center gap-2">
