@@ -22,7 +22,6 @@ const App = () => {
         <meta property="og:url" content="https://yourdomain.com" />
         <meta property="og:type" content="website" />
 
-        {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Godswill Oguike | Web Developer" />
         <meta name="twitter:description" content="Clean UIs and full-stack projects built with modern tech." />
@@ -31,8 +30,8 @@ const App = () => {
         <link rel="canonical" href="https://yourdomain.com" />
         <link rel="icon" href="/favicon.ico" />
       </Helmet>
-      <main className="overflow-x-hidden relative">
-        <div className="flex flex-col text-[#1e293b] snap-y snap-mandatory overflow-y-hidden ">
+      <main className="overflow-x-hidden relative overflow-y-hidden">
+        <div className="flex flex-col text-[#1e293b] snap-y snap-mandatory overflow-x-hidden">
           <Navbar />
           <CardBoard />
           <Projects/>

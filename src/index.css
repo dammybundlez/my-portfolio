@@ -3,6 +3,11 @@
 @tailwind base;
 @tailwind components;
 
+body {
+  margin: 0;
+  /* font-family: 'Inter', sans-serif; */
+  overflow-x: hidden;
+}
 
 .star {
   animation: spin 4s linear infinite;
