@@ -43,7 +43,7 @@ const cards = [
 ];
 const Projects = () => {
   return (
-   <div id="projects" className="relative bg-[#E8988A]  lg:h-[150vh] h-[220vh] text-black font-ubuntu">
+   <div id="projects" className="relative bg-[#E8988A]  lg:h-[150vh] h-[220vh] mt-[120vh] lg:mt-[150vh] text-black font-ubuntu">
     <div className="flex gap-8">
         <h1 className="lg:text-[9rem] text-5xl text-black font-bold mb-20 px-20 absolute left-[-4.5rem] lg:left-0 top-[-2.3rem] lg:top-[-7.5rem]">
             Projects.

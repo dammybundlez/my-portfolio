@@ -1,7 +1,7 @@
 module.exports = {
   content: ['./src/App.tsx' ,
     './src/components/Navbar.tsx' ,
-    './src/components/Cardboard.tsx' ,
+    './src/components/CardBoard.tsx' ,
     './src/components/Projects.tsx' ,
     './src/components/About.tsx' ,
     './src/components/Contact.tsx' ,
