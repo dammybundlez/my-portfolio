@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
+
+
+.star {
+  animation: spin 4s linear infinite;
+  filter: drop-shadow(0 0 6px #FFD700) drop-shadow(0 0 12px #FFD700);
+  transform-origin: center;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.text-outline {
+  color: transparent;
+  -webkit-text-stroke: 1px #f80404; 
+  -webkit-text-stroke-width: 2.2px;
+}
+
+  .highlight-skew {
+      position: relative;
+      display: inline-block;
+      font-weight: 700;
+      color: black;
+      z-index: 1;
+      padding: 0.2em 0;
+    }
+
+    /* .clip-path{
+      clip-path: polygon(0 0 , 100% 0 , 100% 60% , 0% 0%);
+    } */
+
+    .highlight-mission {
+      position: relative;
+      display: inline-block;
+      font-weight: 700;
+      font-size: normal;
+      font-style: italic;
+      color: black;
+      z-index: 1;
+      /* padding: 0.2em 0; */
+    }
+    .highlight-mission::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  height: 0.4em;
+  width: 0%;
+  background-color: #facc15;
+  z-index: -1;
+  border-radius: 6px;
+  transform: skewY(-3deg);
+  transition: width 0.4s ease;
+  opacity: 0.85;
+  width: 100%;
+}
+    
+  .highlight-skew::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  height: 0.4em;
+  width: 0%;
+  background-color: #facc15;
+  z-index: -1;
+  border-radius: 6px;
+  /* transform: skewY(-3deg); */
+  transition: width 0.4s ease;
+  opacity: 0.85;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.stroke-text {
+  color: transparent;
+  -webkit-text-stroke: 1px #00CFFF;
+}
+
+
+.text-gradient {
+  background: linear-gradient(to bottom, #00CFFF, rgb(66, 107, 66));
+  -webkit-text-fill-color: transparent;
+}
+
+.strike-animate {
+  position: relative;
+  display: inline-block;
+}
+
+.strike-animate::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 2px;
+  width: 0%;
+  background: red;
+  animation: strikeIn 0.4s ease-out forwards;
+}
+
+@keyframes strikeIn {
+  to {
+    width: 100%;
+  }
+}
+
+
+.text-outline:hover{
+  color: #f80404;
+  cursor: pointer;
+}
+
+.text-creative {
+  color: transparent;
+  -webkit-text-stroke: 1px #d6f00e; 
+  -webkit-text-stroke-width: 2.2px;
+}
+
+.text-creative:hover{
+  color: #d6f00e;
+  cursor: pointer;
+}
+
+.text-problem {
+  color: transparent;
+  -webkit-text-stroke: 1px #0bf308; 
+  -webkit-text-stroke-width: 2.2px;
+}
+
+.text-problem:hover{
+  color: #0bf308;
+  cursor: pointer;
+}
+
+.animate-gradient {
+        background-size: 300% 300%;
+        animation: gradientShift 5s ease infinite;
+      }
+
+      @keyframes gradientShift {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
